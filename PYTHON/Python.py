@@ -59,3 +59,22 @@ numero=11
 if es_primo(numero):
     print(f"{numero} este número es primo")
 else: print(f"{numero} este número no es primo")
+
+#Para hacer saltos de línea hay que poner 3 comillas """
+s_textolargo= """Esto es un mensaje
+con tres saltos
+de línea"""
+print(s_textolargo)
+
+print("Ahora"+"voy")
+print("Ahora","voy")
+print("Ahora " + "voy")
+
+s_cuentatext= "Vamos a contar cuantas veces aparece la letra c"
+print(s_cuentatext.count("c"))
+
+s_separartext= "vamos a separar esta frase por los espacios"
+print(s_separartext.split())
+
+s_introduzcasunombre=input("introduzca su nombre: ")
+print("Bienvenido",s_introduzcasunombre)
