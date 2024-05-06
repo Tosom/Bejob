@@ -78,3 +78,18 @@ print(s_separartext.split())
 
 s_introduzcasunombre=input("introduzca su nombre: ")
 print("Bienvenido",s_introduzcasunombre)
+
+c=input("Vamos a comparar 2 números, pon el primer número ")
+d=input("Ahora pon el segundo número ")
+if c>d:
+    print("El primer número es el mayor")
+else:
+    print("El segundo número es mayor")
+print("Estamos fuera del if")
+
+c=int(c)
+while c<20: #Creamos un bucle con una condición
+    print(c, end=" ")
+    c +=2
+print(c)
+print("Hemos salido del while")
